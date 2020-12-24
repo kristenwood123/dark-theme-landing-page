@@ -1,0 +1,114 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: var(--color-DB-intro-email);
+}
+
+
+.header {
+  color: var(--color-white-neutral);
+
+  &__navbar-links ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--color-white-neutral);
+  }
+
+  &__logo img {
+    max-width: 100px;
+  }
+}
+
+.hero {
+  width: 100%;
+  color: var(--color-white-neutral);
+  background-image: url(../images/bg-curvy-desktop.svg);
+  background-position: bottom; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: grid;
+  text-align: center;
+
+  &__content-wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  &__img-wrapper img {
+    width: 100%;
+    max-width: 721px;  
+  }
+
+  &__text-content-wrapper {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding-top: 2em; 
+  }
+  
+  &__heading {
+    font-size: 30px; 
+    text-align: center;
+  }
+
+  &__subheading {
+    line-height: 1.5rem;
+    color: white;
+  }
+
+  &__button {
+    color: white;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 10px 80px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.middle-content {
+  color: var(--color-white-neutral);
+  background-color: var(--color-DB-main-background);
+  padding-top: 4rem;
+
+  &__subheading {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__ability-five {
+    background-color: var(--color-DB-main-background);
+  }
+}
+
+.lower-content {
+  background-color: var(--color-DB-main-background);
+}
+  
+.review-content {
+  color: var(--color-white-neutral);
+  font-size: 12px;
+}
+
+.review-content__review-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.input-section {
+  background-color: var(--color-DB-main-background);
+}
+
+.footer-section {
+  background-color: var(--color-DB-footer-background);
+  color: var(--color-white-neutral);
+  padding-bottom: 5rem;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
